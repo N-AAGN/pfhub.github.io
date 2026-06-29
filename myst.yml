@@ -3,6 +3,7 @@ version: 1
 project:
   id: 28434d5f-3bcf-4382-a930-87e68253fb39
   github: https://github.com/N-AAGN/pfhub.github.io
+  title: PFHub
 site:
   template: book-theme
   nav:
@@ -14,4 +15,6 @@ site:
     style: _static/custom.css
     hide_toc: true
     hide_outline: true
-   
+    hide_search: true
+    default_theme: light
+    hide_theme_switcher: true
