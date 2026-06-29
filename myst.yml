@@ -2,20 +2,14 @@
 version: 1
 project:
   id: 28434d5f-3bcf-4382-a930-87e68253fb39
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
   github: https://github.com/N-AAGN/pfhub.github.io
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-   navbar_links:
-        - title: Home
-          url: /Main-page
-        - title: Benchmark 1
-          url: /Benchmark1
-
+  nav:
+    - title: Home
+      url: /Main-page
+    - title: Benchmark 1
+      url: /Benchmark1
   options:
     style: _static/custom.css
    
