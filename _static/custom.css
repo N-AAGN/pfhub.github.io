@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.highlight {
+    background-color: #317399;
+    padding: 0 5px;
+    color: #fff;
+}
