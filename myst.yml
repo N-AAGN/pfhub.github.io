@@ -12,4 +12,6 @@ site:
       url: /Benchmark1
   options:
     style: _static/custom.css
+    hide_toc: true
+    hide_outline: true
    
