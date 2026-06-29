@@ -12,3 +12,8 @@ site:
   template: book-theme
   options:
     style: _static/custom.css
+    nav:
+        - title: Home
+          url: /Main-page
+        - title: Benchmark 1
+          url: /Benchmark1
