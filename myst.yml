@@ -10,7 +10,7 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
-   navbar:
+   navbar_links:
         - title: Home
           url: /Main-page
         - title: Benchmark 1
