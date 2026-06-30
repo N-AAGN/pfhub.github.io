@@ -19,3 +19,4 @@ site:
     hide_outline: true
     hide_search: true
     theme_switcher: false
+    hide_footer_links: true
