@@ -36,40 +36,16 @@ article.content h2 {
     margin-right: auto !important;
 
 }
-/*
+
 img:hover{
     border-radius: 8px;
     border: 10px solid #0CC;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
+.myst-top-nav {
+    background-color: #317399 !important;
 }
 
-ul li {
-  float: left;
+.myst-top-nav a {
+    color: #000000 !important;
 }
-
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #111111;
-}
-</style>
-</head>
-<body>
-
-<ul>
-  <li><a href="#Benchmark1">Benchmark1</a></li>
-</ul>
-

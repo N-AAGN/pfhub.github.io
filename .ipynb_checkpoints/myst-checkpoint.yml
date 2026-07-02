@@ -7,9 +7,10 @@ project:
 site:
   template: book-theme
   title: PFHub
-  nav:
+    nav:
     - title: Benchmark 1
-    url: /Benchmark1
+      url: /Benchmark1
+
   options:
     logo_text: PFHub
     style: _static/custom.css
