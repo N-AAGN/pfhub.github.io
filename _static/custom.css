@@ -3,9 +3,17 @@
 }
 
 /*font settings*/
-body{
-    font-size : 1rem;
+p{
+    font-size : 1.5rem !important;
 }
+
+article.content p {
+    max-width: 52.5% !important;
+    width: 52.5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 h1{
     font-size : 3rem !important;
     font-weight : 700 !important;
@@ -36,6 +44,7 @@ article.content h2 {
     margin-right: auto !important;
 }
 
+
 /*changes images after hovering*/
 img:hover{
     border-radius: 6px;
@@ -45,12 +54,41 @@ img:hover{
 /*nav bar settings*/
 .myst-top-nav {
     background-color: #36492E !important;
-    text-align: right !important;
+    text-align: left !important;
 }
 .myst-top-nav a {
     color: #fff7E6 !important;
     max-width: 100% !important;
     width: 100% !important;
+}
+
+.myst-top-nav-item button span {
+    color: #fff7E6 !important;
+}
+
+.text-stone-900 {
+    color: #fff7E6 !important;
+}
+
+a.myst-top-nav-dropdown-item {
+    background-color: #ffffff !important;
+    color: #36492E !important;
+    white-space: nowrap !important;
+}
+
+a.myst-top-nav-dropdown-item:hover {
+    background-color: #4a6340 !important;
+    color: #fff7E6 !important;
+}
+
+/* footer setting*/
+footer.article {
+    text-align: center !important;
+    background-color: #36492E !important;
+}
+
+footer.article p{
+    color: #fff7E6 !important;
 }
 
 /*sets to light/dark mode*/
@@ -66,34 +104,3 @@ body {
 .myst-theme-button {
     display: none !important;
 }
-/* WIP dropdown
-<html>
-<style>
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 130px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
-</html>
-*/
-
-/* trying to get rid of bottom gap on grid
-.grid-item img {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: 100% !important;
-    display: block !important;
-}
-*/

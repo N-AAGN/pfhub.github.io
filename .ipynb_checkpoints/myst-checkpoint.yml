@@ -7,9 +7,29 @@ project:
 site:
   template: book-theme
   title: PFHub 
+  parts:
+      footer: _static/footer.md
   nav:
     - title: Benchmarks
-      url: /benchmarks
+      children:
+          - title: Benchmark 1 | Spinodal Decomposition
+            url: /benchmark1
+          - title: Benchmark 2
+            url: /benchmark2
+          - title: Benchmark 3
+            url: /benchmark3
+          - title: Benchmark 4
+            url: /benchmark4
+          - title: Benchmark 5
+            url: /benchmark5
+          - title: Benchmark 6
+            url: /benchmark6
+          - title: Benchmark 7
+            url: /benchmark7
+          - title: Benchmark 8
+            url: /benchmark8
+          - title: Benchmark Statistics
+            url: /benchstats
     - title: Recommended Practices
       url: /recomprac
     - title: Wiki

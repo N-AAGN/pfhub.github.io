@@ -2,7 +2,7 @@
 
 ## Connecting the Phase Field Community
 
-
+---
 
 %%html
 <div style="display: grid; grid-template-columns: repeat(6, 1fr); row-gap: 0rem; padding: 0%;">
@@ -44,14 +44,7 @@
     </div>
 </div>
 
-%%html
-<style>
-.grid-item {
-    margin: 0rem !important;
-    padding: 0rem !important;
-    row-gap: 0rem !important;
-}
-</style>
+
 
 :::{figure} images/PF.jpg
 :width: 20%
@@ -62,5 +55,5 @@
 :width: 20%
 :align: center
 :::
-
-
+---
+Welcome to the PFHub! If you're a beginner, you'll soon find resources and a crash course on the technique. If you're an expert, you'll find tools to verify and showcase the quality of your simulations. If you're anywhere in-between, you'll find a community built around a shared interest in phase-field and a commitment to opening up our research for the benefit of all. If you're just getting started implementing a Phase Field example then the recommended practices guide is a great place to start.
