@@ -115,6 +115,7 @@ body {
     padding-right: 0px !important;
 }
 
+/*this block might be unneeded*/
 .person-card p {
     margin: 0 !important;
     line-height: 1.2 !important;
@@ -133,6 +134,7 @@ body {
     display: flex;            /* Makes children sit side-by-side */
     align-items: flex-start;  /* Aligns children to the top of the box */
     gap: 0px;
+    margin-bottom: 20px !important;
 }
 
 .inner-card p{
