@@ -1,0 +1,30 @@
+# PFHub: The Phase Field Community
+
+## Connecting the Phase Field Community
+
+:::{figure} images/PF.jpg
+:width: 20%
+:align: center
+:::
+
+:::{figure} image/logo.jpg
+:width: 20%
+:align: center
+:::
+
+
+%%html
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10%; padding: 5%;">
+    <div class="grid-item">
+        <img src="images/PF.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="images/PF.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="images/PF.jpg">
+    </div>
+</div>
+
+
+

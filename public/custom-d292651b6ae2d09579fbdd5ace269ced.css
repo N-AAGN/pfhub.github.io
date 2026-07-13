@@ -1,0 +1,99 @@
+:root {
+    color-scheme: light !important;
+}
+
+/*font settings*/
+p{
+    font-size : 1.5rem !important;
+}
+
+article.content p {
+    max-width: 52.5% !important;
+    width: 52.5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h1{
+    font-size : 3rem !important;
+    font-weight : 700 !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+}
+h2{
+    font-size : 2rem !important;
+    text-align: left !important;
+}
+
+/* Make content full width */
+article.article-grid {
+    display: block !important;
+}
+
+/*margins for headings*/
+article.content h1 {
+    max-width: 52.5% !important;
+    width: 52.5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+article.content h2 {
+    max-width: 52.5% !important;
+    width: 52.5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/*changes images after hovering*/
+img:hover{
+    border-radius: 6px;
+    border: 3px solid #36492E;
+}
+
+/*nav bar settings*/
+.myst-top-nav {
+    background-color: #36492E !important;
+    text-align: left !important;
+}
+.myst-top-nav a {
+    color: #fff7E6 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.myst-top-nav-item button span {
+    color: #fff7E6 !important;
+}
+
+.text-stone-900 {
+    color: #fff7E6 !important;
+}
+
+a.myst-top-nav-dropdown-item {
+    background-color: #ffffff !important;
+    color: #36492E !important;
+}
+
+a.myst-top-nav-dropdown-item:hover {
+    background-color: #4a6340 !important;
+    color: #fff7E6 !important;
+}
+
+.myst-footer a {
+    text-align: center !important;
+}
+
+/*sets to light/dark mode*/
+html {
+    color-scheme: light only !important;
+}
+body {
+    background-color: #fff7E6 !important;
+    color: #000000 !important;
+}
+
+/*turns off theme button*/
+.myst-theme-button {
+    display: none !important;
+}
