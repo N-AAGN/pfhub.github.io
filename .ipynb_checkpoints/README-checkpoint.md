@@ -46,10 +46,6 @@
 
 
 
-:::{figure} images/PF.jpg
-:width: 20%
-:align: center
-:::
 
 :::{figure} images/logo.jpg
 :width: 20%
