@@ -106,22 +106,13 @@ body {
 .myst-theme-button {
     display: none !important;
 }
-/*describes class for images of people in community page*/
+/*for the community page*/
 .person-card img {
     width: 150px !important;
     height: auto !important;
     margin: 20px !important;  
     margin-right: 0px !important;
     padding-right: 0px !important;
-}
-
-/*this block might be unneeded*/
-.person-card p {
-    margin: 0 !important;
-    line-height: 1.2 !important;
-    padding: 0 !important;
-    color: #000000 !important;
-    text-align: left !important;
 }
 
 .person-card {
@@ -133,7 +124,7 @@ body {
     background-color: #ffffff !important;
     display: flex;            /* Makes children sit side-by-side */
     align-items: flex-start;  /* Aligns children to the top of the box */
-    gap: 0px;
+    gap: 0px !important;
     margin-bottom: 20px !important;
 }
 
@@ -146,11 +137,13 @@ body {
     margin-bottom: auto !important;
     margin-left: 0px !important;
     padding-left: 0px !important;
-    white-space: nowrap !important;
     font-size: 19px !important;
+    width: auto !important;
+    max-width: 100% !important;
 }
 
 .inner-card {
-    padding-left: 0px !important;
-    margin-left: 0px  !important;
+    flex: 1;
 }
+
+
